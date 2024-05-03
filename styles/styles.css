@@ -1,17 +1,16 @@
 html {
   font-family: "Open Sans", sans-serif;
   background-image: url("../images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NTItZi0wMTQuanBn.webp");
+  color: white;
+ 
 }
 
-* {
-  box-sizing: border-box;
-  border-radius: 25px 25px 0px 0px;
-  }
 .column {
   float: left;
   width: 33.33%;
   padding: 5px;
   border: 1px solid #ccc;
+  box-sizing: border-box;
   border-radius: 25px;
 }
 .row::after {
@@ -19,6 +18,8 @@ html {
   clear: both;
   display: table;
   border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px 25px 0px 0px;
   
 }
 .center {
@@ -26,6 +27,8 @@ html {
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
+  box-sizing: border-box;
+  border-radius: 25px 25px 0px 0px;
 }
 
 div.desc {
@@ -43,18 +46,35 @@ p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-size: 20px; 
 }
-li {
+
+a {
   letter-spacing: 1px;
+  font-size: 20px;
+  color: white;
 }
+
 
 body {
   width: 80%;
   margin: 0 auto;
-  /*background-color: #ff9500;*/
   padding: 0 20px 20px 20px;
   border: 5px solid black;
-  background-image: url("../images/vector.jpg")
-  
+  background-image: url("../images/triangles-1430105_1280.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img.gallary{
+  border-radius: 25px 25px 0px 0px;
+}
+
+img.intro{
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
